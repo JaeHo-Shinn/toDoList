@@ -1,0 +1,39 @@
+.task-board {
+  background-color: rgb(255, 255, 255);
+}
+
+.task-area__task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.checked {
+  text-decoration: line-through;
+
+  background-color: rgb(228, 228, 228);
+}
+
+.tasks,
+.checked {
+  width: 82%;
+}
+
+.task-area__task__btn button {
+  margin: 0px 5px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.task-area__task__btn button:first-child {
+  color: rgb(88, 202, 255);
+  font-size: 18px;
+}
+
+.task-area__task__btn button:last-child {
+  color: rgb(255, 109, 109);
+}

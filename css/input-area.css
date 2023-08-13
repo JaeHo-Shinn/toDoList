@@ -1,0 +1,35 @@
+.input-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+  width: 100%;
+}
+
+.input-area__input {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 228, 196, 0.7);
+  width: 60%;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+.input-area__input:focus {
+  background-color: rgba(255, 228, 196, 0.5);
+  transition: 0.3s background-color ease-in-out;
+}
+
+.input-area__btn {
+  border: none;
+  background-color: rgba(201, 201, 201, 0);
+  font-size: 23px;
+  color: rgb(124, 124, 124);
+  margin: 2px 13px;
+}
+
+.input-area__btn:active {
+  font-size: 24px;
+  margin: 1.3px 12.5px;
+}

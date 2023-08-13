@@ -1,0 +1,28 @@
+.task-area {
+  border: 1px solid lightgrey;
+  position: relative;
+}
+
+.task-area__tabs {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  justify-content: space-around;
+  background-color: rgb(247, 236, 236);
+}
+
+.task-area__tabs div {
+  padding: 13px;
+  cursor: pointer;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+}
+
+#under-line {
+  height: 5px;
+  width: 33.33%;
+  background-color: rgb(155, 253, 183);
+  position: absolute;
+  top: 45px;
+  transition: 0.2s ease-in-out;
+}
